@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+}
+.container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column; 
+    background-color: white;
+    align-items: center;
+  }
+}
+.container div {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    text-align: justify;
+}
+
+button {
+    width: 150px;
+}
